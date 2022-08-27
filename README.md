@@ -21,7 +21,7 @@ The docker hub for this project is here: https://hub.docker.com/repository/docke
 While this image is primarily built to run inside the Kasm Workspaces platform, it can also be executed manually by itself.  Please note that certain functionality, such as audio, web filtering, uploads/downloads, etc, is only available within the Kasm platform.
 
 ```
-sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/desktop-ml:1.9.0
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/kasmcommunity/machine-learning:1.11.0-rolling
 ```
 
 The container is now accessible via a browser : `https://<IP>:6901`
