@@ -22,3 +22,6 @@ First you must clone a image in the list. I picked Ubuntu Jammy in this example.
 
 Next set the feild to the same as in this iamge.
 ![](resources/image_setup.png)
+
+Congrates it is now in your list of images. Just let it download as it is a big image.
+![](resources/in_list.png)
