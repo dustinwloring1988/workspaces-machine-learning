@@ -15,7 +15,30 @@ The agent component will report to the API service the number of GPUs and if the
 
 The docker hub for this project is here: https://hub.docker.com/repository/docker/kasmcommunity/machine-learning
 
-# Adding this image to your list
+
+# Manual Deployment
+
+While this image is primarily built to run inside the Kasm Workspaces platform, it can also be executed manually by itself.  Please note that certain functionality, such as audio, web filtering, uploads/downloads, etc, is only available within the Kasm platform.
+
+```
+sudo docker run --rm  -it --shm-size=512m -p 6901:6901 -e VNC_PW=password kasmweb/desktop-ml:1.9.0
+```
+
+The container is now accessible via a browser : `https://<IP>:6901`
+
+ - **User** : `kasm_user`
+ - **Password**: `password`
+
+# Adding a new workspace image
+
+Add a new Workspace image to the deployment and launch. 
+1. Clone the Kasm Desktop Image
+2. Change the name field to "kasmweb/desktop-ml:1.9.0"
+3. Update the Friendly name and description as desired
+4. If your system has a GPU, check the require GPU box and set the desired number of GPUs to assign. Set to 0 to assign all available GPUs.
+5. Set the desired CPU cores and RAM that shall be assigned to an instance of this image
+6. Click Submit to save the changes
+
 
 First you must clone a image in the list. I picked Ubuntu Jammy in this example.
 ![](resources/clone.png)
@@ -25,3 +48,7 @@ Next set the feild to the same as in this iamge.
 
 Congrates it is now in your list of images. Just let it download as it is a big image.
 ![](resources/in_list.png)
+
+# Help Us Make It Better
+
+You can help make this better by submitting a pull request with new features and bug fixes.
