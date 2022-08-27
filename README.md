@@ -14,3 +14,7 @@ The agent component will report to the API service the number of GPUs and if the
 # Docker Hub
 
 The docker hub for this project is here: https://hub.docker.com/repository/docker/kasmcommunity/machine-learning
+
+# Adding this image to your list
+
+See the image below
