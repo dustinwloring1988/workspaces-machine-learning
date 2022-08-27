@@ -1,4 +1,3 @@
-![Screenshot][logo]
 # Kasm Workspaces Machine Learning
 
 This project provides a desktop environment geared for machine learning development. It is meant as an example to using DevOps to provide a secure working environment for machine learning using the Kasm Workspaces platform.
