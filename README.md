@@ -17,5 +17,8 @@ The docker hub for this project is here: https://hub.docker.com/repository/docke
 
 # Adding this image to your list
 
-See the image below
+First you must clone a image in the list. I picked Ubuntu Jammy in this example.
+![](resources/clone.png)
+
+Next set the feild to the same as in this iamge.
 ![](resources/image_setup.png)
