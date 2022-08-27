@@ -11,4 +11,6 @@ Kasm Workspaces (formally Kasm Server) version 1.9.0 and higher supports NVIDIA 
 
 The agent component will report to the API service the number of GPUs and if the Docker daemon is showing the "nvidia" runtime is available. In the Admin panel the Agents view will list all available compute (Agents) available along with the number of GPUs they are reporting. The following screenshot shows a deployment with two Agents, one with a GPU and one without.
 
+# Docker Hub
+
 The docker hub for this project is here: https://hub.docker.com/repository/docker/kasmcommunity/machine-learning
